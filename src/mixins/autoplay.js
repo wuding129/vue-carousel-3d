@@ -31,8 +31,13 @@ const autoplay = {
         this.pauseAutoplay()
 
         if (!this.$isServer) {
-            this.$el.removeEventListener('mouseenter', this.pauseAutoplay)
-            this.$el.removeEventListener('mouseleave', this.startAutoplay)
+            if ('ontouchstart' in window) {
+                 this.$el.removeEventListener('touchstart', this.pauseAutoplay)
+                 this.$el.removeEventListener('touchend', this.startAutoplay)
+             } else {
+                 this.$el.removeEventListener('mouseenter', this.pauseAutoplay)
+                 this.$el.removeEventListener('mouseleave', this.startAutoplay)
+             }
         }
     },
     methods: {
@@ -51,8 +56,13 @@ const autoplay = {
     },
     mounted () {
         if (!this.$isServer && this.autoplayHoverPause) {
-            this.$el.addEventListener('mouseenter', this.pauseAutoplay)
-            this.$el.addEventListener('mouseleave', this.startAutoplay)
+            if ('ontouchstart' in window) {
+                 this.$el.addEventListener('touchstart', this.pauseAutoplay)
+                 this.$el.addEventListener('touchend', this.startAutoplay)
+             } else {
+                 this.$el.addEventListener('mouseenter', this.pauseAutoplay)
+                 this.$el.addEventListener('mouseleave', this.startAutoplay)
+             }
         }
 
         this.startAutoplay()
