@@ -1,5 +1,5 @@
 {
-    "name": "vue-carousel-3d-modified",
+    "name": "vue-carousel-3d",
     "version": "0.0.1",
     "description": "vue-carousel-3d modified",
     "main": "dist/vue-carousel-3d.min.js",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/wuding129/vue-carousel-3d-modified.git"
+        "url": "https://github.com/wuding129/vue-carousel-3d.git"
     },
     "keywords": [
         "Vue",
@@ -18,7 +18,7 @@
         "slider"
     ],
     "author": "wuding",
-    "homepage": "https://github.com/wuding129/vue-carousel-3d-modified",
+    "homepage": "https://github.com/wuding129/vue-carousel-3d",
     "license": "MIT",
     "devDependencies": {
         "babel-core": "^6.21.0",
