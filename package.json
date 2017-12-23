@@ -1,6 +1,6 @@
 {
-    "name": "vue-carousel-3d",
-    "version": "0.0.1",
+    "name": "vue-carousel-3d-modified",
+    "version": "0.0.2",
     "description": "vue-carousel-3d modified",
     "main": "dist/vue-carousel-3d.min.js",
     "scripts": {
