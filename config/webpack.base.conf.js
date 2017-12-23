@@ -6,7 +6,7 @@ const npmCfg = require('../package.json');
 const projectRoot = path.resolve(__dirname, '../');
 
 var banner = [
-    'vue-carousel-3d v' + npmCfg.version,
+    'vue-carousel-3d-modified v' + npmCfg.version,
     '(c) ' + (new Date().getFullYear()) + ' ' + npmCfg.author,
     npmCfg.homepage
 ].join('\n')

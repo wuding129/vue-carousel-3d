@@ -1,6 +1,7 @@
 # Vue Carousel 3d Modified
 
-This repo is forked from vue-carousel-3d, just add prefix on transition and transform to fix the transition issue on ios8, and add touch event when autoplayHoverPause
+This repo is forked from vue-carousel-3d(https://github.com/wlada/vue-carousel-3d), just add prefix on transition and transform to fix the transition issue on ios8, and add touch event when autoplayHoverPause
+
 
 [![NPM downloads](https://img.shields.io/npm/dm/vue-carousel-3d.svg)](https://npmjs.com/package/vue-carousel-3d)
 [![Build Status](https://travis-ci.org/Wlada/vue-carousel-3d.svg?branch=master)](https://travis-ci.org/Wlada/vue-carousel-3d)
@@ -21,8 +22,9 @@ This repo is forked from vue-carousel-3d, just add prefix on transition and tran
 ## Installation
 
 ``` bash
-npm install -S vue-carousel-3d
+npm install -S vue-carousel-3d-modified
 ```
+others just like vue-carousel-3d
 
 ## Usage
 
