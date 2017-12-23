@@ -51,6 +51,9 @@
                     'height': this.parent.slideHeight + 'px',
                     'transition': ' transform ' + this.parent.animationSpeed + 'ms, ' +
                     '               opacity ' + this.parent.animationSpeed + 'ms, ' +
+                    '               visibility ' + this.parent.animationSpeed + 'ms',
+                    '-webkit-transition': ' -webkit-transform ' + this.parent.animationSpeed + 'ms, ' +
+                    '               opacity ' + this.parent.animationSpeed + 'ms, ' +
                     '               visibility ' + this.parent.animationSpeed + 'ms'
                 })
             }
@@ -85,6 +88,7 @@
 
                 return {
                     transform: transform,
+                    WebkitTransform: transform,
                     top: top,
                     zIndex: zIndex - (Math.abs(i) + 1)
                 }
@@ -128,6 +132,7 @@
         opacity: 1 !important;
         visibility: visible !important;
         transform: none !important;
+        -webkit-transform: none !important;
         z-index: 999;
     }
 

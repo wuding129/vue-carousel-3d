@@ -461,6 +461,7 @@
         position: relative;
         margin: 0 auto;
         transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
         -webkit-perspective: 1000px;
         -moz-perspective: 1000px;
         perspective: 1000px;
